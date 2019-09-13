@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="XLogger" Version="1.0.0" />
+    <PackageReference Include="Xlogger.Adapters.Console" Version="1.0.0" />
+    <PackageReference Include="Xlogger.AspNetCore" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
